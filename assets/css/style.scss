@@ -1,0 +1,29 @@
+@import 'reset';
+.container{    
+    width: 90%;
+    max-width: 1230px;
+    margin: 0 auto;
+}
+.gallery{
+    text-align: center;
+    &_title{
+        font-size: 40px;
+        margin: 50px 0;        
+    }
+    &_list{
+        display: grid;
+        grid-template-columns: repeat(auto-fit, minmax(500px, 1fr));
+        gap: 20px;
+        &_item_img{
+            border-radius: 20px;
+            box-shadow: 3px 5px 10px #000;
+            transition: all .2s ease;
+            transform: scale(1);
+            &:hover{
+                transition: all .2s ease;
+                transform: scale(1.03);
+            }
+            
+        }
+    }
+}
