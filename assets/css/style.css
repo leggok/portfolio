@@ -26,6 +26,7 @@ html, body {
 
 .gallery {
   text-align: center;
+  padding-top: 30px;
 }
 .gallery_title {
   font-size: 40px;
