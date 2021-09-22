@@ -36,11 +36,17 @@ html, body {
   grid-template-columns: repeat(auto-fit, minmax(500px, 1fr));
   gap: 20px;
 }
+.gallery_list_item {
+  max-width: 600px;
+}
 .gallery_list_item_img {
   border-radius: 20px;
   box-shadow: 3px 5px 10px #000;
   transition: all 0.2s ease;
   transform: scale(1);
+  max-width: 600px;
+  height: auto;
+  object-fit: cover;
 }
 .gallery_list_item_img:hover {
   transition: all 0.2s ease;

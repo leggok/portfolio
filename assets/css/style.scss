@@ -21,6 +21,9 @@
                 box-shadow: 3px 5px 10px #000;
                 transition: all .2s ease;
                 transform: scale(1);
+                max-width: 600px;
+                height: auto;
+                object-fit: cover;
                 &:hover{
                     transition: all .2s ease;
                     transform: scale(1.03);
